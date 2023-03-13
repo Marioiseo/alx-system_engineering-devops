@@ -1,2 +1,2 @@
 #!/bin/bash
-echo AcAc | tr A,c Z,e
+cat * | tr A,c Z,e
