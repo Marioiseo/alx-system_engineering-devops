@@ -1,2 +1,2 @@
 #!/bin/bash
-printf `$. % 2 == 1 `
+perl -lne `printf $. % 2 == 1`
